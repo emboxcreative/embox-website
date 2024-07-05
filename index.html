@@ -7,17 +7,28 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+
+    <nav>
+        <a href="index.html" id="nav-header"><h2>Embox Creative</h2></a>
+        <ul>
+            <li><a href="index.html" id="active-menu">Home</a></li>
+            <li><a href="index.html#about-section">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="index.html#contact-us-container">Contact</a></li>
+        </ul>
+    </nav>
+
     <div id="hero">
         <div id="hero-left">
             <img src="/img/ec-logo.png" alt="embox creative logo">
         </div>
         <div id="hero-right">
             <p id="hero-text">Innovative Solutions, Tangible Results</p>
-            <a href="#contact-us-container"><button id="hero-button" >Get Started!</button></a>
+            <a href="#contact-us-container"><button id="hero-button" class="main-button">Get Started!</button></a>
         </div>
     </div>
 
-    <div class="container">
+    <div id="container">
 
         <section id="about-section">
             <div id="about-container">
@@ -85,11 +96,12 @@
                                 <p class="body-text">We build bespoke web solutions that streamline your business processes and enhance productivity. Whether you need a custom CRM, project management tool, or any other web-based application, we deliver tools that fit your specific needs.</p>
                         </div>
                     </div>
+                    <a href="services.html"><button class="main-button">Learn More</button></a>
                 </div>
             </section>
 
         <section id="our-vision-container">
-            <p id="vision-text">We envision a digital world where businesses of all sizes can leverage technology to reach their full potential. At Embox Creative, we are committed to being your trusted partner on this journey, <span id="vision-accent">providing solutions that not only meet but exceed your expectations.</span></p>
+            <p class="vision-text">We envision a digital world where businesses of all sizes can leverage technology to reach their full potential. At Embox Creative, we are committed to being your trusted partner on this journey, <span class="vision-accent">providing solutions that not only meet but exceed your expectations.</span></p>
         </section>
 
         <section id="contact-us-container">
